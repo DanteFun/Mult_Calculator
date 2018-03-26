@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_standard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="标准" />
+        <item
+            android:id="@+id/nav_science"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="科学" />
+        <item
+            android:id="@+id/nav_coder"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="程序员" />
+        <item
+            android:id="@+id/nav_date"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="日期计算" />
+
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@drawable/ic_menu_share"
+            android:title="货币" />
+        <item
+            android:id="@+id/nav_angle"
+            android:icon="@drawable/ic_menu_send"
+            android:title="角度" />
+    </group>
+</menu>
